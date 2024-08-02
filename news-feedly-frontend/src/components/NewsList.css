@@ -1,0 +1,29 @@
+/* src/components/NewsList.css */
+.news-list {
+    padding: 20px;
+  }
+  
+  .news-item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  .news-item h2 {
+    margin: 0 0 10px;
+  }
+  
+  .news-item p {
+    margin: 0 0 10px;
+  }
+  
+  .news-item a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .news-item a:hover {
+    text-decoration: underline;
+  }
+  
