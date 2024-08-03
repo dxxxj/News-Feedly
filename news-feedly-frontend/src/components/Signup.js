@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
-import './Signup.css'; // Import CSS for styling
+import './Signup.css'; 
 
 const Signup = () => {
     const [email, setEmail] = useState('');
@@ -10,7 +10,7 @@ const Signup = () => {
     const navigate = useNavigate();
 
     useEffect(() => {
-        // Check if the user is already logged in
+        
         const token = localStorage.getItem('authToken');
         if (token) {
             navigate('/');
