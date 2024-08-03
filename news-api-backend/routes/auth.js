@@ -1,11 +1,11 @@
 const express = require('express');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
-const User = require('../models/user'); // Ensure the path matches your project structure
+const User = require('../models/user'); 
 
 const router = express.Router();
 
-// Register route
+
 router.post('/register', async (req, res) => {
     const { email, password } = req.body;
     try {
@@ -13,7 +13,7 @@ router.post('/register', async (req, res) => {
             return res.status(400).json({ message: 'Please provide both email and password' });
         }
 
-        // Check if user already exists
+        
         const existingUser = await User.findOne({ email });
         if (existingUser) {
             return res.status(400).json({ message: 'Email already in use' });
@@ -28,7 +28,6 @@ router.post('/register', async (req, res) => {
     }
 });
 
-// Login route
 router.post('/login', async (req, res) => {
     const { email, password } = req.body;
     try {
@@ -48,7 +47,6 @@ router.post('/login', async (req, res) => {
     }
 });
 
-// Middleware to protect routes
 const protect = (req, res, next) => {
     const token = req.headers.authorization?.split(' ')[1];
     if (!token) {
@@ -64,7 +62,6 @@ const protect = (req, res, next) => {
     }
 };
 
-// Example protected route
 router.get('/protected', protect, (req, res) => {
     res.json({ message: 'This is a protected route', user: req.user });
 });
