@@ -1,6 +1,6 @@
  News-Feedly
 
-News-Feedly is a web application that fetches news from various sources and displays them in a user-friendly manner. It includes features such as user login/signup, a search bar, and source filtering. The backend is built using Node.js, Express.js, and MongoDB, while the frontend is built using React.
+News-Feedly is a web application that fetches news from various sources and displays them in a user-friendly manner and saves it to our database on a regular basis. It includes features such as user login/signup, a search bar, and source filtering. The backend is built using Node.js, Express.js, and MongoDB, while the frontend is built using React.
 
 ## Features
 
