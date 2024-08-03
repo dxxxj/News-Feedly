@@ -1,4 +1,3 @@
-// routes/getArticles.js
 const express = require('express');
 const News = require('../models/News');
 
