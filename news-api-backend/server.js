@@ -6,7 +6,7 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 const newsRouter = require('./routes/news');
 const getArticlesRouter = require('./routes/getArticles');
-const authRouter = require('./routes/auth'); // Import the auth routes
+const authRouter = require('./routes/auth'); 
 
 dotenv.config();
 
@@ -35,9 +35,9 @@ app.use(express.json());
 // Routes
 app.use('/api/news', newsRouter);
 app.use('/api/get-articles', getArticlesRouter);
-app.use('/api/auth', authRouter); // Add the auth routes
+app.use('/api/auth', authRouter); 
 
-// Schedule cron job to fetch news every hour
+
 cron.schedule('0 * * * *', async () => {
     try {
         await axios.get('http://localhost:5000/api/news/fetch');
