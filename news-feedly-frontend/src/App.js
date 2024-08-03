@@ -73,7 +73,6 @@ const App = () => {
         }}>Signup</Link>
     </div>
 </nav>
-
   
         <Routes>
           <Route path="/" element={
