@@ -1,17 +1,16 @@
-// src/theme.js
 import { createTheme } from '@mui/material/styles';
 
 const theme = createTheme({
   palette: {
     primary: {
-      main: '#1976d2', // Primary color
+      main: '#1976d2', 
     },
     secondary: {
-      main: '#dc004e', // Secondary color
+      main: '#dc004e', 
     },
     background: {
-      default: '#f5f5f5', // Default background color
-      paper: '#ffffff', // Paper background color
+      default: '#f5f5f5', 
+      paper: '#ffffff', 
     },
   },
   typography: {
