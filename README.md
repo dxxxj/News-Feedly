@@ -46,13 +46,3 @@ news-feedly-frontend/
 ├── .gitignore
 
 
-
-![image](https://github.com/user-attachments/assets/99477ee8-52fb-407b-9a5f-e8d3d39f1e15)
-
-
-
-
-![image](https://github.com/user-attachments/assets/966b5490-6835-4cfe-89cd-7b83f87c112a)
-
-
-![image](https://github.com/user-attachments/assets/0b35e38e-a1a8-40e3-afb0-dba6ef61fa34)
