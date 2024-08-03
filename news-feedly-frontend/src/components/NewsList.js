@@ -1,6 +1,6 @@
-// src/components/NewsList.js
+
 import React from 'react';
-import './NewsList.css'; // Import CSS for styling (if applicable)
+import './NewsList.css'; 
 
 const NewsList = ({ articles }) => {
   if (articles.length === 0) {
