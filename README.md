@@ -10,6 +10,8 @@ News-Feedly is a web application that fetches news from various sources and disp
 - Filter news by source.
 - Responsive and visually appealing UI.
 
+
+
 ## Project Structure
 
 ```bash
@@ -44,5 +46,12 @@ news-feedly-frontend/
 ├── package-lock.json
 ├── package.json
 ├── .gitignore
+```````
 
+
+![Reactfrontend](https://github.com/user-attachments/assets/f0c67046-6b2b-46c2-9f26-698e1468a828)
+
+![image](https://github.com/user-attachments/assets/f050e851-e835-43c8-b597-c05b9f13e9ba)
+
+![image](https://github.com/user-attachments/assets/c11d9106-4960-41d6-9671-066d35410359)
 
