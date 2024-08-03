@@ -45,7 +45,7 @@ const App = () => {
           </ul>
         </nav> */}
 <nav style={{
-    backgroundColor: '#f0f8ff', // Light blue background
+    backgroundColor: '#f0f8ff', 
     padding: '10px',
     display: 'flex',
     justifyContent: 'space-between',
@@ -55,7 +55,7 @@ const App = () => {
     <div style={{ display: 'flex', justifyContent: 'flex-start', flex: 1 }}>
         <Link to="/" style={{
             textDecoration: 'none',
-            color: '#007bff', // Blue color for links
+            color: '#007bff',
             fontWeight: 'bold',
             margin: '0'
         }}>Home</Link>
@@ -63,12 +63,12 @@ const App = () => {
     <div style={{ display: 'flex', gap: '15px', justifyContent: 'flex-end', flex: 1 }}>
         <Link to="/login" style={{
             textDecoration: 'none',
-            color: '#007bff', // Blue color for links
+            color: '#007bff', 
             fontWeight: 'bold'
         }}>Login</Link>
         <Link to="/signup" style={{
             textDecoration: 'none',
-            color: '#007bff', // Blue color for links
+            color: '#007bff', 
             fontWeight: 'bold'
         }}>Signup</Link>
     </div>
